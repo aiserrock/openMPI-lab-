@@ -2,11 +2,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # threads number
-THREADS = 6
+THREADS = 4
 # number of seconds and number of threads
-SEC_LIST = [35, 17.2, 11.1, 9.72, 9.43, 9]
+SEC_LIST = [70, 35.2, 21.1, 18.72]
 # thread named alias
-NAMED_THREADS = ['One', 'Two', 'Three', 'Four', 'Five', 'Six']
+NAMED_THREADS = ['One', 'Two', 'Three', 'Four',]
 
 
 def get_graph():
